@@ -172,8 +172,8 @@ Map { font-directory: url(./fonts); }
 
 @poi_text:          #888;
 
-@road_text:         #fff;
-@road_halo:         #333;
+@road_text:         #444;
+@road_halo:         #fff;
 
 @other_text:        #888;
 @other_halo:        @place_halo;
