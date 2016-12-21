@@ -21,14 +21,14 @@
 Map { font-directory: url(./fonts); }
 
 /* set up font sets for various weights and styles */
-@sans_lt:       "Ubuntu Regular";
+@sans_lt:       "Ubuntu Regular", "Unifont Medium";
 
 /* "Open Sans Regular", "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
                 "Mukti Narrow Regular", "gargi Medium", "TSCu_Paranar Regular", "Tibetan Machine Uni Regular", "Mallige Normal",
                 "Droid Sans Fallback Regular", "Unifont Medium", "unifont Medium";*/
 
 
-@sans_lt_italic:    "Ubuntu Regular";
+@sans_lt_italic:    "Ubuntu Regular", "Unifont Medium";
 
 /* "Open Sans Oblique", "DejaVu Sans Oblique", "Arundina Sans Italic", "TSCu_Paranar Italic", "Mallige NormalItalic",
                 "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
@@ -36,13 +36,13 @@ Map { font-directory: url(./fonts); }
                 "Droid Sans Fallback Regular", "Unifont Medium", "unifont Medium"; */
 
 
-@sans:          "Ubuntu Regular";
+@sans:          "Ubuntu Regular", "Unifont Medium";
 
 /* "Open Sans Semibold", "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
                 "Mukti Narrow Regular", "gargi Medium", "TSCu_Paranar Regular", "Tibetan Machine Uni Regular", "Mallige Normal",
                 "Droid Sans Fallback Regular", "Unifont Medium", "unifont Medium"; */
 
-@sans_italic:   "Ubuntu Regular";
+@sans_italic:   "Ubuntu Regular", "Unifont Medium";
 
 /* "Open Sans Semibold Italic",  "DejaVu Sans Oblique", "Arundina Sans Italic", "TSCu_Paranar Italic", "Mallige NormalItalic",
                 "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
@@ -50,14 +50,14 @@ Map { font-directory: url(./fonts); }
                 "Droid Sans Fallback Regular", "Unifont Medium", "unifont Medium"; */
 
 
-@sans_bold:  "Ubuntu Regular";
+@sans_bold:  "Ubuntu Regular", "Unifont Medium";
 
 /* "Open Sans Bold", "DejaVu Sans Bold", "Arundina Sans Bold", "Padauk Bold", "Mukti Narrow Bold", "TSCu_Paranar Bold", "Mallige Bold",
              "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
              "Mukti Narrow Regular", "gargi Medium", "TSCu_Paranar Regular", "Tibetan Machine Uni Regular", "Mallige Normal",
              "Droid Sans Fallback Regular", "Unifont Medium", "unifont Medium"; */
 
-@sans_bold_italic:  "Ubuntu Regular";
+@sans_bold_italic:  "Ubuntu Regular", "Unifont Medium";
 
 /* "Open Sans Bold Italic","DejaVu Sans Bold Oblique", "DejaVu Sans Oblique", "Arundina Sans Italic", "TSCu_Paranar Italic", "Mallige NormalItalic",
                 "DejaVu Sans Book", "Arundina Sans Regular", "Padauk Regular", "Khmer OS Metal Chrieng Regular",
