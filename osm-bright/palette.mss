@@ -113,9 +113,14 @@ Map { font-directory: url(./fonts); }
 @trunk_fill:        lighten(@trunk_line,10%);
 @trunk_case:        @trunk_line * 0.9;
 
+/*
 @primary_line:      #FFC859;
 @primary_fill:      lighten(@primary_line,10%);
+*/
 @primary_case:      @primary_line * 0.9;
+
+@primary_line:      @secondary_line;
+@primary_fill:      @secondary_fill;
 
 @secondary_line:    #CD9120;
 @secondary_fill:    #E4C049;
@@ -167,8 +172,8 @@ Map { font-directory: url(./fonts); }
 
 @poi_text:          #888;
 
-@road_text:         #777;
-@road_halo:         #fff;
+@road_text:         #fff;
+@road_halo:         #333;
 
 @other_text:        #888;
 @other_halo:        @place_halo;
