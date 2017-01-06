@@ -6,7 +6,7 @@
 and trunks. */
 
 #roads_low[zoom>=5][zoom<=8] {
-  [type='motorway'] { line-color: @highway_fill; }
+  [type='motorway'] { line-color: @highway_fill; polygon-fill: @highway_fill;}
   [type='trunk'] { line-color: @trunk_line; }
   [zoom=5] {
     [type='motorway'] { line-width: 0.4; }
@@ -26,7 +26,7 @@ and trunks. */
 as well. */
 
 #roads_med[zoom>=9][zoom<=10] {
-  [type='motorway'],
+  [type='motorway'] { line-color: @highway_fill; polygon-fill: @highway_fill;}
   [type='motorway_link'] {
     line-color: @motorway_line;
   }

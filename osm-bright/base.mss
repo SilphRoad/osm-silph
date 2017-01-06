@@ -197,5 +197,4 @@ Map { background-color: @water; }
 #barrier_lines[zoom>=17][stylegroup = 'hedge'] {
   line-width:3;
   line-color:darken(@park,5%);
-
 }
