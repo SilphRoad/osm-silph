@@ -7,19 +7,19 @@ and trunks. */
 
 #roads_low[zoom>=5][zoom<=8] {
   [type='motorway'] { line-color: #e4c049; }
-  [type='trunk'] { line-color: @trunk_line; }
+  [type='trunk'] { line-color: #e4c049; }
   [zoom=5] {
     [type='motorway'] { line-width: 0.8; }
-    [type='trunk'] { line-width: 0.2; } }
+    [type='trunk'] { line-width: 0.4; } }
   [zoom=6] {
     [type='motorway'] { line-width: 1.0; }
-    [type='trunk'] { line-width: 0.25; } }
+    [type='trunk'] { line-width: 0.5; } }
   [zoom=7] {
     [type='motorway'] { line-width: 1.2; }
-    [type='trunk'] { line-width: 0.3; } }
+    [type='trunk'] { line-width: 0.6; } }
   [zoom=8] {
     [type='motorway'] { line-width: 2; }
-    [type='trunk'] { line-width: 0.5; } }
+    [type='trunk'] { line-width: 1.0; } }
 }
 
 /* At mid-level scales start to show primary and secondary routes
