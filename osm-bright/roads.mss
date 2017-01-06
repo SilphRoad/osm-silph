@@ -39,7 +39,7 @@ as well. */
 
   [type='trunk'],
   [type='trunk_link'] {
-    line-color: @trunk_line;
+    line-color: #e4c049;
   }
 
   [zoom=9] {
@@ -58,7 +58,7 @@ as well. */
 
 #roads_med::outline[zoom>=9][zoom<=10] {
   [type='motorway'] { line-color: #edb919; line-width: 0.8;}
-  [type='trunk'] { line-color: #edb919; line-width: 0.4; }
+  [type='trunk'] { line-color: #edb919; line-width: 0.8; }
 }
 
 
