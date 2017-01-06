@@ -111,7 +111,7 @@ Map { font-directory: url(./fonts); }
 @motorway_case:     #EEEEEE;
 
 @trunk_line:        #FFFFFF;
-@trunk_fill:        #FFFFFF
+@trunk_fill:        #FFFFFF;
 @trunk_case:        #EEEEEE;
 
 @primary_line:      #FFFFFF;
@@ -122,9 +122,9 @@ Map { font-directory: url(./fonts); }
 @secondary_fill:    #FFFFFF;
 @secondary_case:    #EEEEEE;
 
-@standard_line:     @land * 0.85;
+@standard_line:     #FFFFFF;
 @standard_fill:     #fff;
-@standard_case:     @land * 0.9;
+@standard_case:     #EEEEEE;
 
 @pedestrian_line:   @standard_line;
 @pedestrian_fill:   #FAFAF5;
