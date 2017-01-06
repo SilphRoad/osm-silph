@@ -169,7 +169,11 @@ Map { background-color: @water; }
 #admin[admin_level='4'][zoom>1] {
   line-color:@admin_2;
   line-width: 0.5;
-  line-dasharray: 5, 4;
+  [zoom=2] { line-dasharray: 50, 35 }
+  [zoom=3],[zoom=4],[zoom=5] { line-dasharray: 40, 28; }
+  [zoom=6],[zoom=7] { line-dasharray: 30, 22; }
+  [zoom=8],[zoom=9] { line-dasharray: 20, 17; }
+  [zoom>=10] { line-dasharray: 10, 8; }
 }
 
 /* ================================================================== */
