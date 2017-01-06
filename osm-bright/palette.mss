@@ -106,8 +106,6 @@ Map { font-directory: url(./fonts); }
  *         inner fill (inline).
  */
 
-@highway_fill       #e4c049;
-
 @motorway_line:     @standard_line;
 @motorway_fill:     @standard_fill;
 @motorway_case:     @standard_case;
