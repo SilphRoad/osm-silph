@@ -232,7 +232,7 @@ come in as well.
   }
   /* -- widths -- */
   [zoom=11] {
-    [stylegroup='motorway'] { line-width: @rdz11_maj; line-color: #e4c049; }
+    [stylegroup='motorway'] { line-width: @rdz11_maj; line-color: #e9d79c; }
     [stylegroup='mainroad'] { line-width: @rdz11_med; }
     [stylegroup='minorroad']{ line-width: 0; }
     [stylegroup='railway']  { line-width: 0.2; }
