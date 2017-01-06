@@ -166,7 +166,7 @@ Map { background-color: @water; }
   [zoom=4] { line-opacity: 0.4; }
 }
 
-#admin[admin_level>=3][zoom>1] {
+#admin[admin_level='4'][zoom>1] {
   line-color:@admin_2;
   line-width: 0.5;
   line-dasharray: 10, 3, 2, 3;
