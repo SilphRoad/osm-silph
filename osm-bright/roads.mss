@@ -152,7 +152,7 @@ come in as well.
     [stylegroup='mainroad'] { line-width: @rdz16_med + 2.5; }
     [stylegroup='minorroad']{ line-width: @rdz16_min + 2; }
     [stylegroup='service']  { line-width: @rdz16_min / 3 + 2; }
-    [stylegroup='noauto']   { line-width: @rdz15_min / 4 + 2; }
+    [stylegroup='noauto']   { line-width: 0 }
     [stylegroup='railway']  { line-width: 2 + 2; }
   }
   [zoom>=17] {
