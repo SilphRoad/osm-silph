@@ -6,8 +6,7 @@
 and trunks. */
 
 #roads_low::outline[zoom>=5][zoom<=8] {
-  [type='motorway'] { line-color: #edb919; line-width: 1.2;}
-  [type='trunk'] { line-color: #edb919; line-width: 1.2; }
+  [type='motorway'],[type='trunk'] { line-color: #edb919; line-width: 3.8;}
 }
 
 #roads_low[zoom>=5][zoom<=8] {
@@ -27,7 +26,7 @@ and trunks. */
 as well. */
 
 #roads_med::outline[zoom>=9][zoom<=10] {
-  [type='motorway'],[type='trunk'] { line-color: #edb919; line-width: 1.6;}
+  [type='motorway'],[type='trunk'] { line-color: #edb919; line-width: 4.8;}
 }
 
 #roads_med[zoom>=9][zoom<=10] {
