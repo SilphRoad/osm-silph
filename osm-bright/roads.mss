@@ -30,6 +30,8 @@ as well. */
   [type='motorway_link'] {
     line-color: #e4c049;
   }
+
+  /*
   [type='trunk'],
   [type='trunk_link'] {
     line-color: @trunk_line;
@@ -47,6 +49,7 @@ as well. */
     [type='primary'],[type='secondary'],
     [type='motorway_link'],[type='trunk_link'] { line-width: 0.8; }
   }
+  */
 }
 
 /* At higher levels the roads become more complex. We're now showing 
