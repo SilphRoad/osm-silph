@@ -6,8 +6,8 @@
 and trunks. */
 
 #roads_low[zoom>=5][zoom<=8] {
-  [type='motorway'] { line-color: #e4c049; }
-  [type='trunk'] { line-color: #e4c049; }
+  [type='motorway'] { line-color: #e9d79c; }
+  [type='trunk'] { line-color: #e9d79c; }
   [zoom=5] {
     [type='motorway'] { line-width: 0.8; }
     [type='trunk'] { line-width: 0.4; } }
@@ -21,6 +21,12 @@ and trunks. */
     [type='motorway'] { line-width: 2; }
     [type='trunk'] { line-width: 1.0; } }
 }
+
+#roads_low::outline[zoom>=5][zoom<=8] {
+  [type='motorway'] { line-color: #edb919; line-width: 0.3;}
+  [type='trunk'] { line-color: #edb919; line-width: 0.1; }
+}
+
 
 /* At mid-level scales start to show primary and secondary routes
 as well. */
@@ -49,6 +55,12 @@ as well. */
     [type='primary'] { line-color: @primary_line; }
   }
 }
+
+#roads_med::outline[zoom>=9][zoom<=10] {
+  [type='motorway'] { line-color: #edb919; line-width: 0.8;}
+  [type='trunk'] { line-color: #edb919; line-width: 0.4; }
+}
+
 
 /* At higher levels the roads become more complex. We're now showing 
 more than just automobile routes - railways, footways, and cycleways
@@ -105,7 +117,7 @@ come in as well.
   [tunnel=1] { line-dasharray: 3,3; }        
   /* -- widths -- */
   [zoom=11] {
-    [stylegroup='motorway'] { line-width: @rdz11_maj + 2; }
+    [stylegroup='motorway'] { line-width: @rdz11_maj + 2; line-color: #edb919; }
     [stylegroup='mainroad'] { line-width: @rdz11_med + 1.6; }
     [stylegroup='minorroad']{ line-width: @rdz11_min; }
     /* No minor bridges yet */
