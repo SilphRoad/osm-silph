@@ -106,24 +106,30 @@ Map { font-directory: url(./fonts); }
  *         inner fill (inline).
  */
 
-@motorway_line:     #FFFFFF;
+@motorway_line:     #E65C5C;
 @motorway_fill:     lighten(@motorway_line,10%);
 @motorway_case:     @motorway_line * 0.9;
 
-@trunk_line:        #FFFFFF;
+@trunk_line:        #E65822;
 @trunk_fill:        lighten(@trunk_line,10%);
 @trunk_case:        @trunk_line * 0.9;
 
-@primary_line:      #FFFFFF;
+/*
+@primary_line:      #FFC859;
 @primary_fill:      lighten(@primary_line,10%);
+*/
 @primary_case:      @primary_line * 0.9;
 
 @primary_line:      @secondary_line;
 @primary_fill:      @secondary_fill;
 
-@secondary_line:    #FFFFFF;
-@secondary_fill:    #DDDDDD;
+@secondary_line:    #CD9120;
+@secondary_fill:    #E4C049;
 @secondary_case:    @secondary_line * 0.9;
+
+@standard_line:     @land * 0.85;
+@standard_fill:     #fff;
+@standard_case:     @land * 0.9;
 
 @pedestrian_line:   @standard_line;
 @pedestrian_fill:   #FAFAF5;
