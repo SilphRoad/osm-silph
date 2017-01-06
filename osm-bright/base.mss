@@ -39,7 +39,7 @@
   [type='wood']          { polygon-fill: @wooded; }
 }
 
-#landuse[zoom>=15] {
+#landuse[zoom>15] {
   [type='pedestrian']    { polygon-fill: @pedestrian_fill; }
 }
 
