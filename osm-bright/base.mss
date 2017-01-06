@@ -169,7 +169,6 @@ Map { background-color: @water; }
 #admin[admin_level>=3][zoom>1] {
   line-color:@admin_2;
   line-width: 0.5;
-  line-color: #426;
   line-dasharray: 10, 3, 2, 3;
 }
 
