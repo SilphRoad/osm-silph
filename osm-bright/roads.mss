@@ -6,7 +6,7 @@
 and trunks. */
 
 #roads_low[zoom>=5][zoom<=8] {
-  [type='motorway'] { line-color: @motorway_line; }
+  [type='motorway'] { line-color: #e4c049; }
   [type='trunk'] { line-color: @trunk_line; }
   [zoom=5] {
     [type='motorway'] { line-width: 0.4; }
@@ -28,7 +28,7 @@ as well. */
 #roads_med[zoom>=9][zoom<=10] {
   [type='motorway'],
   [type='motorway_link'] {
-    line-color: @motorway_line;
+    line-color: #e4c049;
   }
   [type='trunk'],
   [type='trunk_link'] {
