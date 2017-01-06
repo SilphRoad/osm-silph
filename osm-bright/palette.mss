@@ -189,3 +189,28 @@ Map { font-directory: url(./fonts); }
 
 
 
+@land:              #dcdcdc;
+@water:             #138ab6;
+
+@park:              #91c082;
+
+@building:          #f4f4f4;
+
+@motorway_line:     #FFFFFF;
+@motorway_fill:     lighten(@motorway_line,10%);
+@motorway_case:     @motorway_line * 0.9;
+
+@trunk_line:        #FFFFFF;
+@trunk_fill:        lighten(@trunk_line,10%);
+@trunk_case:        @trunk_line * 0.9;
+
+@primary_line:      #FFFFFF;
+@primary_fill:      lighten(@primary_line,10%);
+@primary_case:      @primary_line * 0.9;
+
+@primary_line:      @secondary_line;
+@primary_fill:      @secondary_fill;
+
+@secondary_line:    #FFFFFF;
+@secondary_fill:    #DDDDDD;
+@secondary_case:    @secondary_line * 0.9;
