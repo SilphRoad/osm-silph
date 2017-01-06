@@ -31,25 +31,29 @@ as well. */
     line-color: #e4c049;
   }
 
-  /*
   [type='trunk'],
   [type='trunk_link'] {
     line-color: @trunk_line;
   }
+  /*
   [type='primary'] { line-color: @primary_line; }
   [type='secondary'] { line-color: @secondary_line; }
   [type='tertiary'] { line-color: @standard_line; }
+  */
   [zoom=9] {
     [type='motorway'],[type='trunk'] { line-width: 1.4; }
+    /*
     [type='primary'],[type='secondary'],
     [type='motorway_link'],[type='trunk_link'] { line-width: 0.6; }
+    */
   }
   [zoom=10] {
     [type='motorway'],[type='trunk'] { line-width: 1.8; }
+    /*
     [type='primary'],[type='secondary'],
     [type='motorway_link'],[type='trunk_link'] { line-width: 0.8; }
+    */
   }
-  */
 }
 
 /* At higher levels the roads become more complex. We're now showing 
