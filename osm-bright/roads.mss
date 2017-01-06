@@ -35,11 +35,7 @@ as well. */
   [type='trunk_link'] {
     line-color: @trunk_line;
   }
-  /*
-  [type='primary'] { line-color: @primary_line; }
-  [type='secondary'] { line-color: @secondary_line; }
-  [type='tertiary'] { line-color: @standard_line; }
-  */
+
   [zoom=9] {
     [type='motorway'],[type='trunk'] { line-width: 1.4; }
     /*
@@ -50,6 +46,7 @@ as well. */
   [zoom=10] {
     [type='motorway'],[type='trunk'] { line-width: 1.8; }
     [type='primary'],[type='motorway_link'],[type='trunk_link'] { line-width: 0.8; }
+    [type='primary'] { line-color: @primary_line; }
   }
 }
 
