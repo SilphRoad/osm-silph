@@ -5,12 +5,16 @@
 /* At lower zoomlevels, just show major automobile routes: motorways
 and trunks. */
 
+#roads_low::outline[zoom>=5][zoom<=8] {
+  [type='motorway'] { line-color: #edb919; line-width: 0.2;}
+  [type='trunk'] { line-color: #edb919; line-width: 0.2; }
+}
+
 #roads_low[zoom>=5][zoom<=8] {
   [type='motorway'] { line-color: #e9d79c; }
   [type='trunk'] { line-color: #e9d79c; }
   [zoom=5] {
-    [type='motorway'] { line-width: 0.8; }
-    [type='trunk'] { line-width: 0.8; } }
+    [type='motorway'],[type='trunk'] { line-width: 0.8; } }
   [zoom=6] {
     [type='motorway'] { line-width: 1.0; }
     [type='trunk'] { line-width: 1.0; } }
@@ -22,43 +26,33 @@ and trunks. */
     [type='trunk'] { line-width: 2.0; } }
 }
 
-#roads_low::outline[zoom>=5][zoom<=8] {
-  [type='motorway'] { line-color: #edb919; line-width: 0.5;}
-  [type='trunk'] { line-color: #edb919; line-width: 0.5; }
-}
-
-
 /* At mid-level scales start to show primary and secondary routes
 as well. */
+
+#roads_med::outline[zoom>=9][zoom<=10] {
+  [type='motorway'] { line-color: #edb919; line-width: 0.8;}
+  [type='trunk'] { line-color: #edb919; line-width: 0.8; }
+}
 
 #roads_med[zoom>=9][zoom<=10] {
   [type='motorway'],
   [type='motorway_link'] {
-    line-color: #e4c049;
+    line-color: #e9d79c;
   }
 
   [type='trunk'],
   [type='trunk_link'] {
-    line-color: #e4c049;
+    line-color: #e9d79c;
   }
 
   [zoom=9] {
     [type='motorway'],[type='trunk'] { line-width: 2.4; }
-    /*
-    [type='primary'],[type='secondary'],
-    [type='motorway_link'],[type='trunk_link'] { line-width: 0.6; }
-    */
   }
   [zoom=10] {
     [type='motorway'],[type='trunk'] { line-width: 2.8; }
     [type='primary'],[type='motorway_link'],[type='trunk_link'] { line-width: 0.8; }
     [type='primary'] { line-color: @primary_line; }
   }
-}
-
-#roads_med::outline[zoom>=9][zoom<=10] {
-  [type='motorway'] { line-color: #edb919; line-width: 0.8;}
-  [type='trunk'] { line-color: #edb919; line-width: 0.8; }
 }
 
 
