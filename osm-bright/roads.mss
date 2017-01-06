@@ -9,16 +9,16 @@ and trunks. */
   [type='motorway'] { line-color: #e4c049; }
   [type='trunk'] { line-color: @trunk_line; }
   [zoom=5] {
-    [type='motorway'] { line-width: 0.4; }
+    [type='motorway'] { line-width: 0.8; }
     [type='trunk'] { line-width: 0.2; } }
   [zoom=6] {
-    [type='motorway'] { line-width: 0.5; }
+    [type='motorway'] { line-width: 1.0; }
     [type='trunk'] { line-width: 0.25; } }
   [zoom=7] {
-    [type='motorway'] { line-width: 0.6; }
+    [type='motorway'] { line-width: 1.2; }
     [type='trunk'] { line-width: 0.3; } }
   [zoom=8] {
-    [type='motorway'] { line-width: 1; }
+    [type='motorway'] { line-width: 2; }
     [type='trunk'] { line-width: 0.5; } }
 }
 
