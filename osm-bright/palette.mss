@@ -106,25 +106,25 @@ Map { font-directory: url(./fonts); }
  *         inner fill (inline).
  */
 
-@motorway_line:     #FFFFFF;
-@motorway_fill:     #FFFFFF;
-@motorway_case:     #EEEEEE;
+@motorway_line:     @standard_line;
+@motorway_fill:     @standard_fill;
+@motorway_case:     @standard_case;
 
-@trunk_line:        #FFFFFF;
-@trunk_fill:        #FFFFFF;
-@trunk_case:        #EEEEEE;
+@trunk_line:        @standard_line;
+@trunk_fill:        @standard_fill;
+@trunk_case:        @standard_case;
 
-@primary_line:      #FFFFFF;
-@primary_fill:      #FFFFFF;
-@primary_case:      #EEEEEE;
+@primary_line:      @standard_line;
+@primary_fill:      @standard_fill;
+@primary_case:      @standard_case;
 
-@secondary_line:    #FFFFFF;
-@secondary_fill:    #FFFFFF;
-@secondary_case:    #EEEEEE;
+@secondary_line:    @standard_line;
+@secondary_fill:    @standard_fill;
+@secondary_case:    @standard_case;
 
-@standard_line:     #FFFFFF;
+@standard_line:     @land * 0.85;
 @standard_fill:     #fff;
-@standard_case:     #EEEEEE;
+@standard_case:     @land * 0.9;
 
 @pedestrian_line:   @standard_line;
 @pedestrian_fill:   #FAFAF5;
