@@ -37,14 +37,14 @@ as well. */
   }
 
   [zoom=9] {
-    [type='motorway'],[type='trunk'] { line-width: 1.4; }
+    [type='motorway'],[type='trunk'] { line-width: 2.4; }
     /*
     [type='primary'],[type='secondary'],
     [type='motorway_link'],[type='trunk_link'] { line-width: 0.6; }
     */
   }
   [zoom=10] {
-    [type='motorway'],[type='trunk'] { line-width: 1.8; }
+    [type='motorway'],[type='trunk'] { line-width: 2.8; }
     [type='primary'],[type='motorway_link'],[type='trunk_link'] { line-width: 0.8; }
     [type='primary'] { line-color: @primary_line; }
   }
