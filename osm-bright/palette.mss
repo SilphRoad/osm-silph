@@ -73,8 +73,8 @@ Map { font-directory: url(./fonts); }
 /* LANDUSE & LANDCOVER COLORS
 /* ================================================================== */
 
-@land:              #dcdcdc;
-@water:             #138ab6;
+@land:              #DCDCDC;
+@water:             #138AB6;
 @grass:             #E6F2C1;
 @beach:             #FFEEC7;
 @park:              #91c082;
@@ -83,7 +83,7 @@ Map { font-directory: url(./fonts); }
 @agriculture:       #F2E8B6;
 
 
-@building:          #f4f4f4;
+@building:          #F4F4F4;
 @hospital:          rgb(229,198,195);
 @school:            #FFF5CC;
 @sports:            #B8E6B8;
